@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RadioGroup
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/main_radio"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#ff646464"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/id_rb_wordbook"
+            style="@style/main_tab_bottom"
+            android:layout_marginTop="2.0dip"
+            android:drawableTop="@drawable/wb"
+            android:text="@string/wordbook" />
+
+        <RadioButton
+            android:id="@+id/id_rb_study"
+            style="@style/main_tab_bottom"
+            android:layout_marginTop="2.0dip"
+            android:drawableTop="@drawable/study"
+            android:text="@string/learnnewword" />
+
+        <RadioButton
+            android:id="@+id/id_rb_test"
+            style="@style/main_tab_bottom"
+            android:layout_marginTop="2.0dip"
+            android:drawableTop="@drawable/test"
+            android:text="@string/test" />
+
+        <RadioButton
+            android:id="@+id/id_rb_ec"
+            style="@style/main_tab_bottom"
+            android:layout_marginTop="2.0dip"
+            android:drawableTop="@drawable/ec"
+            android:text="@string/cnen" />
+
+        <RadioButton
+            android:id="@+id/id_rb_more"
+            style="@style/main_tab_bottom"
+            android:layout_marginTop="2.0dip"
+            android:drawableTop="@drawable/icon_5_n"
+            android:text="@string/more" />
+    </RadioGroup>
